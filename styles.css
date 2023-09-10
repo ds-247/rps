@@ -30,14 +30,16 @@ h1 {
   margin: 10% 0 3% 0;
 }
 
-img {
+#paper,
+#stone,
+#scissor {
+  border-radius: 24px;
   height: min(13rem);
-  /* padding: 10px; */
 }
 
+
 img:hover {
-  box-shadow: 2px 5px 20px 7px #373db9;
-  border-radius: 25px;
+  cursor: pointer;
 }
 
 .hidden {
@@ -62,4 +64,11 @@ img:hover {
 
 .btn:active {
   box-shadow: 2px 4px 10px 0px #0f0e0e;
+}
+
+#paper,
+#stone,
+#scissor {
+  border-radius: 24px;
+  box-shadow: 2px 5px 20px 7px #b7b7be;
 }
